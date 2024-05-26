@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: 'Menlo', monospace;
+  font-size: 0.875rem;
+}
+
+@layer components {
+  .wght-500 path:last-child {
+    stroke-width: 2;
+  }
+}
